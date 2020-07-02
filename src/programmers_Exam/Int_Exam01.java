@@ -28,9 +28,21 @@ public class Int_Exam01 {
 	public static void main(String[] args) {
 		int priorities = 123;
 		int result = solution(priorities);
+		test2 ts2 = new test2();
+		ts2.printTest("헬로우");
 				
 	}
 }
+
+
+class test2 {
+	
+	public void printTest(String text) {
+		System.out.println(text);
+	}
+}
+
+
 
 /*   < 느낀점 >      
 	공부를 많이해야겠구나 이런것도 못하는구나... 싶다...
